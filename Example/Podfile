@@ -1,0 +1,15 @@
+source 'https://github.com/waitwalker/PodSepcs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MTTNetworkLibrary_Example' do
+  pod 'MTTNetworkLibrary', :path => '../'
+
+  target 'MTTNetworkLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

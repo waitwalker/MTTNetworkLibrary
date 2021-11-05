@@ -1,0 +1,6 @@
+framework module MTTNetworkLibrary {
+  umbrella header "MTTNetworkLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

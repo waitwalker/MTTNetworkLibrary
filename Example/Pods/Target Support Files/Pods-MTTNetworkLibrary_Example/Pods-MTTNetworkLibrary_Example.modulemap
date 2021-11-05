@@ -1,0 +1,6 @@
+framework module Pods_MTTNetworkLibrary_Example {
+  umbrella header "Pods-MTTNetworkLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
