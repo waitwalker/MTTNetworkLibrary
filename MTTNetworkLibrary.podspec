@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTTNetworkLibrary'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'NetworkLibrary 是基于AFNetworking封装的网络请求库'
 
 # This description is used to generate tags and improve search results.

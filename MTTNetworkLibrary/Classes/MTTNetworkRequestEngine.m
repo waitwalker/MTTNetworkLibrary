@@ -151,7 +151,7 @@
     NSDictionary *customHeaders = [MTTNetworkConfig sharedConfig].customHeaders;
     if (customHeaders.count > 0) {
         [customHeaders enumerateKeysAndObjectsUsingBlock:^(NSString * key, NSString *obj, BOOL * _Nonnull stop) {
-            [_sessionManager.requestSerializer setValue:obj forKey:key];
+            [_sessionManager.requestSerializer setValue:obj forHTTPHeaderField:key];
             if (_isDebugMode) {
                 NSLog(@"添加请求头key:%@ value:%@",key,obj);
             }

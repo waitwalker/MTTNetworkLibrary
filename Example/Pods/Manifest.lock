@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - MTTNetworkLibrary (1.0):
+  - MTTNetworkLibrary (1.1):
     - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  MTTNetworkLibrary: b240f42110863cf5e096569ff43734e1b5b7cdf9
+  MTTNetworkLibrary: a1d239058a9e6b72911044318241c0c661b3b272
 
 PODFILE CHECKSUM: 49ef14de7b6e3aadd3f4bc9da93f29e5d68c63e1
 
